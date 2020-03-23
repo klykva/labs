@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	
+	<title>Тюльпаны</title>
+    </head>
+
+<body>
+<h1 align="center">Тюльпаны в Бресте оптом</h1>
+<img src="тюльпаны.jpg" alt="тюльпаны">
+
+<h3>Большой ассортимент тюльпанов по доступным ценам</br></br>
+Оформить заявку можно ниже, удобным для вас способом</br></h3>
+
+<form action="script.php" enctype="multipart/form-data">
+   <h3>1</h3>Введите количество штук для предварительного заказа  <input type="text" name="textField" required="required">  выбрав в поле нужный цвет цветов:
+  
+    <select name="list">
+        <option value=""></option>
+        <option value="element1">белые</option>
+        <option value="element2">жёлтые</option>
+        <option value="element3">фиолетовые</option>
+	<option value="element4">розовые</option>
+	<option value="element5">красные</option>
+	<option value="element6">бело-розовые</option>
+    </select>
+    <br>
+ <button type="submit" formmethod="GET">Оформить заказ</button>
+ <br><br>
+   <h3>2</h3> При отправке формы заказа, Вы можете прикрепить файл необходимого для вас сорта и цвета (если не задано выше в поле со списком)</br>
+    <input type="file" name="userFile"></br></br>
+Введите кличество штук для заказа в первой форме и нажмите кнопку"оформить заказ" <br>
+        <button type="submit" formmethod="POST">Оформить заказ</button></br>
+       </form>
+
+<h1 align="center">Справки по телефонам: +375292000913, 80(1643)98-7-58</h1>
+
+</body>
+</html>
